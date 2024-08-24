@@ -1,0 +1,97 @@
+/*Style de css pour les maisons de luxe*/
+nav {
+  background-color: orange;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#text-logo{
+	margin-bottom : 105px;
+	margin-left: 50px;
+	color : black;
+}
+
+td{
+	color : white;
+}
+
+table, th, td {
+  border:2px solid orange;
+  text-align : center;
+  background-color: black;
+  
+}
+
+#maisonLuxe1{
+	width: 100%;
+	height: 200px;
+}
+
+#maisonLuxe2{
+	width: 100%;
+	height: 200px;
+}
+#maisonLuxe3{
+	width: 100%;
+	height: 200px;
+}
+
+#description1 {
+	width : 50%
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+nav li {
+  margin: 0 90px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+h1 {
+  
+  text-align: center;
+  
+}
+ th{
+	background-color : #E2C9C3;
+	color : black;
+}
+
+
+
+#mon-logo{
+    position: absolute;
+    width: 215px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}
+#Accueil{
+   position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Segoe UI;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+}
+

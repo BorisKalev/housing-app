@@ -1,0 +1,192 @@
+nav {
+  background-color: orange;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+nav li {
+  margin: 0 90px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+nav h2{
+ color : orange;
+}
+
+#autre-carre {
+  float: right;
+  margin-right : 10px;
+  width: 600px; 
+  height: 250px; 
+  background-color: orange; 
+ margin-left : 50 px;
+ border-radius: 35px;
+ margin-top: -50px;
+}
+.h5-AC{
+	margin-left : 10px;
+}
+h4{
+	text-align : center;
+	color : white;
+}
+
+
+
+#rect-remplir{
+	
+    background-color: black;
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -38%);
+    border-radius: 35px;
+	margin-top: -50px;
+}
+#rect-remplir form{
+    margin-left: 70px;
+    margin-top: 55px;
+    color: white;
+    font-family: Segoe UI;
+}
+
+#Accueil{
+   position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Segoe UI;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-color: black;
+   
+}
+#text-logo{
+	margin-bottom : 105px;
+	margin-left: 50px;
+	color : black;
+}
+
+h1 {
+  
+  text-align: center;
+}
+
+img{
+    position: absolute;
+    width: 215px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}
+#Calculer{
+	font-size: 16px;
+	color : black;
+	background-color: white;
+	border-radius : 8px;
+	
+}
+#Annuler{
+	font-size: 16px;
+	color : red;
+	background-color: white;
+	border-radius : 8px;
+	margin-left: 50px;
+}
+
+#prix-propriete h2,
+.prix-valeurMin, .prix-valeurMax {
+  display: inline;
+}
+
+.prix-valeurMin{
+	margin-left : 260px;
+	
+}
+.prix-valeurMax{
+	margin-left : 300px;
+}
+
+
+.progressbar {
+  width: 40%;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  margin-left: 100px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-progressbar {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.slider {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.dr-combobox select {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#ans{
+	font-size: 16px;
+	color : white;
+	margin-left : 5px;
+	 font-family: sans-serif;
+}
+#dollar{
+	margin-left:10px;
+	font-size: 18px;
+}
+#h55{
+	color : white;
+}
+#hypothecaire{
+	color : white;
+}
+
+#message-erreur{
+	color : red;
+}

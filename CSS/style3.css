@@ -1,0 +1,190 @@
+nav {
+  background-color: orange;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+nav li {
+  margin: 0 90px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+#Accueil{
+	background-image: url("../IMAGES/maison.jpg");
+   position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Segoe UI;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+   
+}
+
+
+
+h1 {
+  
+  text-align: center;
+}
+
+img{
+    position: absolute;
+    width: 215px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}
+
+
+#rect-inscription{
+    background-color: black;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -38%);
+    border-radius: 35px;
+}
+#text-logo{
+	margin-bottom : 105px;
+	margin-left: 50px;
+	color : black;
+}
+
+#inscription{
+    background-image: url("..IMAGES/maison.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#titre-inscription{
+	color : orange;
+	text-align:center;
+	
+}
+
+#liste{
+
+}
+
+#rect-inscription form{
+    margin-left: 70px;
+    margin-top: 55px;
+    color: white;
+    font-family: Segoe UI;
+    
+}
+#Text-nom{	
+	text-align : left;
+}
+
+
+#Text-nom label {
+  margin-right: 100px;
+}
+
+#Text-nom input{
+	
+	width : 35%;
+}
+
+#Text-prenom{	
+	text-align : left;
+}
+
+
+#Text-prenom label {
+  margin-right: 80px;
+}
+
+#Text-prenom input{
+	
+	width : 35%;
+}
+
+#Text-email{	
+	text-align : left;
+}
+
+
+#Text-email label {
+  margin-right: 95px;
+}
+
+#Text-email input{
+	
+	width : 45%;
+}
+
+#Text-adresse{	
+	text-align : left;
+}
+
+
+#Text-adresse label {
+  margin-right: 77px;
+}
+
+#Text-adresse input{
+	
+	width : 35%;
+	margin-right: 30px;
+}
+
+#Text-adresse #apt {
+    width: 8%;
+	margin-right: 15px;
+}
+
+
+#Text-date{	
+	text-align : left;
+}
+
+
+#Text-date label {
+  margin-right: 55px;
+}
+
+#Text-date input{
+	
+	width : 15%;
+}
+
+#confirmer button{
+	margin-left: 180px;
+	width : 50 px;
+	height : 25px;
+	background-color : orange;
+	border-radius : 10px;
+	color: white;
+}
+
+/*Cela permet de mettre l'etoile rouge pour dire que cest obligatoire*/
+label.requis::before {
+  content: "*";
+  color: red;
+}

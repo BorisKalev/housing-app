@@ -1,0 +1,175 @@
+nav {
+  background-color: orange;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  
+}
+
+nav li {
+  margin: 0 90px;
+}
+#text-logo{
+	margin-bottom : 105px;
+	margin-left: 50px;
+	color : black;
+	
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: Segoe UI;
+}
+
+
+h1 {
+  
+  text-align: center;
+}
+img {
+	position: absolute;
+	 width: 100%; 
+     height: 100%;
+	/*object-fit: cover;*/
+}
+#Accueil{
+   position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Segoe UI;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	
+   
+}
+
+#mon-logo{
+    position: absolute;
+    width: 215px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: calc(100vh - 100px); /* 100px est pour bien afficher les images */
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+
+/* Caption text */
+.text {
+  color: Orange;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+.image-text {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: Trebuchet MS;
+  padding: 10px;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+/*
+Cette ligne de code etais pour <1/3> en haut de la page 
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/
+
+/* Tous le code ci-dessous est si je veux rajouter des fleches */
+
+/* Next & previous buttons
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 122px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+ */
+
+/* Position the "next button" to the right 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+*/
+
+/* On hover, add a black background color with a little bit see-through
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+ */
+ 
+ /* The dots/bullets/indicators 
+.dot {
+ 
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/

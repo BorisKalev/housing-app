@@ -1,0 +1,138 @@
+nav {
+  background-color: orange;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+#text-logo{
+	margin-bottom : 105px;
+	margin-left: 50px;
+	color : black;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+nav li {
+  margin: 0 90px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+#maison_luxe_Texte{
+	text-align: center;
+	 margin-left: 90px;
+	 color: orange;
+}
+#maison_abordable_Texte{
+	text-align: center;
+	margin-right: 75px;
+	color: orange;
+}
+
+#Type_Maison{
+	/*C'est deux ligne permette de mettre le text sur la meme ligne*/
+	display: flex;
+	flex-direction: row;
+		/*Par rapport a l'ancienne div combien de px vers le bas*/
+    margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	font-family: Segoe UI;
+	/*Permet de separer ke */
+	gap : 200px;
+}
+
+#disposition-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: space-around;
+}
+
+#type-luxe{
+	
+  display: flex;
+  width: 500px;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 20%;
+}
+
+#type-luxe img{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -62%);
+  width: 450px;
+  height: 280px;
+  border-radius: 20%;
+}
+
+#type-abordable{
+	
+  display: flex;
+  width: 500px;
+  height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  border-radius: 20%;
+}
+
+#type-abordable img{
+  position: relative;
+  top: 50%;
+  left: 50%;
+   transform: translate(-55%, -62%);
+  width: 450px;
+  height: 280px;
+  border-radius: 20%;
+}
+
+
+#Accueil{
+   position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Segoe UI;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-color: black;
+
+}
+
+h1 {
+  
+  text-align: center;
+}
+
+img{
+    position: absolute;
+    width: 215px;
+    height: 110px;
+    left: 30px;
+    top: 0px;
+}

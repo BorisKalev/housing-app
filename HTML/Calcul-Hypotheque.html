@@ -1,0 +1,136 @@
+<Title>Calcul de l'Hypotheque</Title>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../CSS/style4.css">
+  </head>
+  <body>
+ <div id = "Accueil">
+  <div id= "menu">
+	  <nav>
+	  <a href="./Home.html">
+	   <h5 id="text-logo">BelleMaison Inc<sub>®</sub></h5>
+  <img id="mon-logo" src="../IMAGES/icone-maison.png" alt="Ceci est mon logo">
+	  </a> 
+      <ul>
+        <li><a href="./Home.html">Accueil</a></li>
+        <li><a href="./listes_proprietes.html">Liste des maisons</a></li>
+        <li><a href="./Info-Clients.html">Infos Clients</a></li>
+		<li><a href="./Calcul-Hypotheque.html">Calcul Hypotheque</a></li>
+       
+	   <div id="rect-remplir">
+	   
+	   <form>
+	  
+	   <div id = "prix-propriete">
+      <h2>Prix de la proriété</h2> <br>
+	  <h5 class="prix-valeurMin">100,000$</h5>
+	  <h5 class="prix-valeurMax">10,000,000$</h5>
+	  </div>
+	  <div class="input-progressbar">
+	  <input type="text" id="prix" name="prix" />
+	    <span id = "dollar">$</span>
+	  <div class="progressbar">
+      <div class="line"></div>
+      <div class="slider" id="slider"></div>
+	</div>
+	</div>
+	
+	
+	  
+      <h2>Mise de Fonds</h2>
+	  <div class = "dr-combobox">
+	  <select id = "pourcentage" name= "pourcentage">
+	  
+	<optgroup label= "Pourcentage populaire">
+	<option value="5">5</option>
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="40">40</option>
+      <option value="50">50</option>
+      <option value="60">60</option>
+	</optgroup>
+	<optgroup label = "----------------------------">
+	<optgroup label= "Tous les pourcentage">
+	
+	</optgroup>
+	</optgroup>
+	</select>
+	<span id = "pourcentage2">%</span>
+	</div>
+	   
+	  <h2>Durée de remboursement</h2> 
+	  
+	  <div class = "dr-combobox">
+	  <select id = "annee" name= "annee">
+	  <optgroup label="">
+	   <optgroup label="Durées populaires">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+      <option value="20">20</option>
+      <option value="25">25</option>
+    </optgroup>
+	  <optgroup label="----------------------------">
+	  <optgroup label= "Toutes les durees">
+      
+	  </optgroup>
+    </optgroup>
+	
+	  </select>
+	 
+	  <span id = "ans">ans</span>
+	  </div>
+	  <!-- Mon carre ou je vais afficher la reponse du calcul hypotheque -->
+	  <div id="autre-carre">
+	  <h4>Calcul de l'hypotheque</h4>
+	  <div class ="h5-AC">
+	  <h5>L'hypothécaire serait de : <label for="h55"></label></h5>
+	  
+	  <h5>Le verserment serait de : </h5>
+	  
+	  <br>
+	  <label id = "message-erreur"></label>
+	  </div>
+	  
+	  </div>
+	  
+	  
+	  <h2>Taux d'intérêt</h2>
+	  <div class = "dr-combobox">
+	  <select id = "taux" name= "taux">
+	  <optgroup label="">
+	   <optgroup label="Pourcentages populaires">
+      <option value="1">1</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+    </optgroup>
+	  <optgroup label="----------------------------">
+	  <optgroup label= "Tout les pourcentages">
+      
+	  </optgroup>
+    </optgroup>
+	
+	  </select>
+	  <span id = "pourcentage3">%</span>
+	  </div>
+	  <br><br>
+	  
+
+        <button id="Calculer" onclick="test()">Calculer</button>
+       <button id = "Annuler" type="reset" > Annuler </button>
+	  
+	 
+    </form>
+	
+	   </div>
+      </ul>
+    </nav>
+	</div>
+	
+	<script src="C:\Users\Boris\Documents\ProjetFinalHTML\JAVASCRIPT\hypotheque.js"></script>
+	</body>
+</html>

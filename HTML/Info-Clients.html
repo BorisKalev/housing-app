@@ -1,0 +1,72 @@
+<Title>Infos Clients</Title>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../CSS/style3.css">
+  </head>
+  <body id = "inscription">
+  <div id = "Accueil">
+  <div id= "menu">
+	  <nav>
+	  <a href="./Home.html">
+	   <h5 id="text-logo">BelleMaison Inc<sub>®</sub></h5>
+  <img id="mon-logo" src="../IMAGES/icone-maison.png" alt="Ceci est mon logo">
+	  </a> 
+      <ul>
+        <li><a href="./Home.html">Accueil</a></li>
+        <li><a href="./listes_proprietes.html">Liste des maisons</a></li>
+        <li><a href="./Info-Clients.html">Infos Clients</a></li>
+		<li><a href="./Calcul-Hypotheque.html">Calcul Hypotheque</a></li>
+       
+      </ul>
+    </nav>
+	</div>
+	
+	<div id= "rect-inscription">
+	<div id = "titre-inscription">
+    <h1>Inscription</h1>
+	</div>
+	
+	<form action="./Info-Clients.html" method="get">
+	  <div id="liste">
+                <div id="Text-nom">
+                    <label for="nom" class="requis"> Nom:</label>
+					<input type="text" id="nom" name="nom"  required><br><br>
+                </div>
+				
+				<div id="Text-prenom">
+                    <label for="prenom" class="requis"> Prenom:</label>
+					<input type="text" id="prenom" name="prenom"  required><br><br>
+                </div>
+				<div id="Text-email">
+                    <label for="email" class="requis"> Email:</label>
+					<input type="text" id="email" name="email" placeholder="Ex: bob@gmail.ca" required><br><br>
+                </div>
+				
+				<div id="Text-date">
+                    <label for="dateN" class="requis"> Date de naissance:</label>
+					<input type="date" id="dateN" name="dateN" required><br><br>
+                </div>
+				<div id="Text-adresse">
+                    <label for="adresse" class="requis"> Adresse:</label>
+					<input type="text" id="adresse" name="adresse" required>
+					
+					<label id ="apt" for="fname"> Apt:</label>
+					<input id ="apt" type="text" id="apt" name="apt">
+					
+					<br><br><br><br>
+                </div>
+				
+				<div id="confirmer">
+                <button type="submit" >Confirmer</button>
+				<button type="reset"> Annuler </button>
+            </div>
+				
+            </div>
+	
+	</form>
+	</div>
+	
+	</body>
+</html>
